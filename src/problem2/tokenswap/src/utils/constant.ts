@@ -1,0 +1,1 @@
+export const SELECT_CURRENCY_DEFAULT = 'ETH';

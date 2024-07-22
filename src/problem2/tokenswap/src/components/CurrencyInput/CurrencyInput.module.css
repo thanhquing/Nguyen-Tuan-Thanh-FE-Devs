@@ -1,0 +1,70 @@
+/* Base styles */
+.container {
+  display: flex;
+  flex-direction: column;
+  background: var(--color-block-primary);
+  border-radius: 16px;
+  outline: 0 solid rgb(182, 206, 10);
+  transition: outline 0.1s linear;
+  margin-bottom: 10px;
+  height: 100px;
+  width: 100%;
+  padding: 17px 18px;
+  color: #717A8C;
+}
+
+.container:hover {
+  outline-width: 1px;
+}
+
+/* Label styles */
+.container label, .price {
+  font-size: 14px;
+}
+
+/* Input wrapper styles */
+.inputWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+/* Input styles */
+.input {
+  background-color: var(--color-block-primary);
+  border: none;
+  font-size: 26px;
+  width: 100%;
+  text-align: right;
+  color: #717A8C;
+}
+
+.input:focus {
+  outline: none;
+}
+
+/* Currency wrapper styles */
+.currencyWrapper {
+  min-width: 124px;
+  height: 40px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  justify-content: space-between;
+  background-color: var(--color-block-secondary);
+  user-select: none;
+  cursor: pointer;
+  transition: background 0.1s linear;
+}
+
+.currencyWrapper .currencyName {
+  font-size: 12px;
+}
+
+.currencyWrapper .currencyIcon {
+  width: 25px;
+  height: 25px;
+}

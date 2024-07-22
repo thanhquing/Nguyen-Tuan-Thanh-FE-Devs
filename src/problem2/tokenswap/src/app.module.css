@@ -1,0 +1,80 @@
+/* Container styles */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--color-app-bg);
+  color: var(--color-text-white);
+  height: 100vh;
+}
+
+/* Block swap wrapper styles */
+.blockSwapWrapper {
+  width: 472px;
+  height: 359px;
+  background: var(--color-block-secondary);
+  border-radius: 12px;
+  padding: 16px 8px 8px 10px;
+}
+
+/* Title styles */
+.title {
+  padding: 0 18px 12px;
+  width: 100%;
+  text-align: center;
+  font-weight: 900;
+  font-size: 28px;
+  letter-spacing: 5px;
+}
+
+/* Input group styles */
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative; /* Added to position switchIcon */
+}
+
+.inputGroup .switchIcon {
+  padding: 10px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: var( --color-block-primary);
+  border: 9px solid var(--color-block-secondary);
+  color: var( --color-text-gray);
+  position: absolute;
+}
+
+/* Button swap styles */
+.buttonSwap {
+  width: 100%;
+  height: 56px;
+  color: var(--color-text-white);
+  background: var(--color-primary);
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 16px;
+  border-radius: 12px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  transition: letter-spacing 0.2s ease-in;
+  margin-top: 10px;
+}
+
+.buttonSwap:hover {
+  letter-spacing: 10px;
+  transition: letter-spacing 0.2s ease-out;
+}
+
+/* Button swap loading styles */
+.buttonSwapLoading {
+  opacity: 0.5;
+  pointer-events: none;
+}
