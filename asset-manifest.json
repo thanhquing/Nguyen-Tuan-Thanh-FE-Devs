@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/interview-code-testing/static/css/main.316ccf1e.css",
+    "main.css": "/interview-code-testing/static/css/main.cd8f259d.css",
     "main.js": "/interview-code-testing/static/js/main.9c926b67.js",
     "static/js/453.e043da50.chunk.js": "/interview-code-testing/static/js/453.e043da50.chunk.js",
     "static/media/OSMO.svg": "/interview-code-testing/static/media/OSMO.315b747ebe94e1dd54201593bc5f19ab.svg",
@@ -36,12 +36,12 @@
     "static/media/ETH.svg": "/interview-code-testing/static/media/ETH.cc84563ba41b1bd1dee94819bc556e1a.svg",
     "static/media/bNEO.svg": "/interview-code-testing/static/media/bNEO.85f3f95fef7d6c87717236f13cbb356e.svg",
     "static/media/STRD.svg": "/interview-code-testing/static/media/STRD.5ec40835a83eb4f516b00ee843f4deb3.svg",
-    "main.316ccf1e.css.map": "/interview-code-testing/static/css/main.316ccf1e.css.map",
+    "main.cd8f259d.css.map": "/interview-code-testing/static/css/main.cd8f259d.css.map",
     "main.9c926b67.js.map": "/interview-code-testing/static/js/main.9c926b67.js.map",
     "453.e043da50.chunk.js.map": "/interview-code-testing/static/js/453.e043da50.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.316ccf1e.css",
+    "static/css/main.cd8f259d.css",
     "static/js/main.9c926b67.js"
   ]
 }
